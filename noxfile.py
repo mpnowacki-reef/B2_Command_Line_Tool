@@ -33,7 +33,7 @@ PYTHON_VERSIONS = [
     '3.10',
     '3.11',
 ] if NOX_PYTHONS is None else NOX_PYTHONS.split(',')
-PYTHON_DEFAULT_VERSION = PYTHON_VERSIONS[-1]
+PYTHON_DEFAULT_VERSION = PYTHON_VERSIONS[-2]
 
 PY_PATHS = ['b2', 'test', 'noxfile.py', 'setup.py']
 
